@@ -1,0 +1,17 @@
+.price-card:hover{
+    background-color: #0E5AF2;
+    transition: all ease 1000ms;
+}
+.price-card:hover h4{
+    color: white;
+    transition: all ease 1000ms;
+}
+.price-card:hover h5{
+    color: white;
+    transition: all ease 1000ms;
+}
+.price-card:hover button{
+    color: #0E5AF2;
+    background-color: white;
+    transition: all ease 1000ms;
+}

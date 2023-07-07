@@ -1,0 +1,17 @@
+
+.service-card:hover div div div{
+    background: blue;
+    transition: 800ms;
+}
+.service-card:hover i{
+    color: white;
+}
+.service-card:hover h6{
+    color: white;
+    transition: 800ms;
+}
+.service-card:hover{
+    color: white;
+    background: blue;
+    transition: 800ms;
+}

@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&family=Fira+Sans:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  margin: 0;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family:  'Fira Sans', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -13,48 +19,95 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/* a {
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Exo', sans-serif;
+  color: #1A1A1A;
+  line-height: 1.7;
+  font-weight: 700;
+
+}
+ /* font sizes */
+ h1{
+  font-size: 60px;
+}
+h2{
+  font-size: 48px;
+}
+h3{
+  font-size: 36px;
+}
+h4{
+  font-size: 30px;
+}
+h5{
+  font-size: 24px;
+}
+h6{
+  font-size: 20px;
+}
+
+p, span{
+  line-height: 1.7;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+
+
+.my-primary-color{
+  color: #0E5AF2;
+}
+.my-bg-color{
+  background: #0E5AF2;
+}
+.my-title-color{
+  color: #1A1A1A;
+}
+.my-text-color{
+  color: #878D97;
+}
+.my-color{
+  color: #EFF1F5;
+}
+.small-title{
+  font-size: 16px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+}
+
+/* 
+a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
-}
+} */
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  text-transform: uppercase;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #0E5AF2;
+  border: none;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: 0.25s;
+  letter-spacing: 2px;
 }
+/* 
 button:hover {
   border-color: #646cff;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
